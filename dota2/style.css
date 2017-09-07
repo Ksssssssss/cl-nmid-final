@@ -1,0 +1,273 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	font-size: 12px;
+	font-family: "Microsoft YaHei", "å®‹ä½“",Arial, Helvetica, sans-serif;
+}
+ul{
+	list-style: none;
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+#bg-cover{
+	min-width: 1448px;
+}
+#bg-wrap1{
+	background-image: url(img/cover1700505_bg_08.jpg);
+	background-repeat: no-repeat;
+	background-color: #050e13;
+	background-position: 50% 0;
+    height:auto;
+    min-height: 1183px;
+    overflow: hidden;
+}
+#video-wrap{
+	position: relative;
+}
+#bg-video{
+	position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1920px;
+    margin-left: -960px;
+}
+#bg-top{
+	 position: absolute;
+    left: 50%;
+    top: 0;
+    width: 1920px;
+    margin-left: -960px;
+}
+#bg-header{
+	position: relative;
+	margin:0 auto;
+	width: 1400px;
+	padding: 22px 20px 20px 10px;
+}
+#bg-header img{
+	display: inline;
+}
+#top-nav{
+	width: 730px;
+	height: 44px;
+	margin:16px 0;
+	list-style: none;
+	float: right;
+}
+#top-nav li{
+	float: left;
+	margin-left: 73px;
+	display: block;
+}
+#top-nav a{
+	height: 40px;
+}
+.lel-1{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #777;
+	line-height: 20px;
+}
+.lel-2{
+	font-size: 18px;
+	line-height: 20px;
+	color: #ccc;
+	display: block;
+}
+#top-nav li:hover .lel-1, #top-nav li:hover .lel-2 {
+    color: #ffd942;
+}
+#contenter{
+	width: 100%;
+	position: absolute;
+	top: 230px;
+}
+#content_center{
+	position: relative;
+	margin: 0 auto;
+	width: 1400px;
+	height: 600px;
+}
+#content_left{
+	position: relative;
+	width: 400px;
+	height: 220px;
+	float: left;
+	background: url(img/cover1700505_15.png) no-repeat;
+}
+#content_right{
+	position: relative;
+	width: 400px;
+	height: 220px;
+	float: right;
+	background: url(img/cover1700505_16.png) no-repeat;
+}
+#content_left img{
+	position: absolute;
+	left: 100px;
+	top: 40px;
+}
+#content_right img{
+	position: absolute;
+	left: 100px;
+	top: 40px;
+}
+#contenter_buttom{
+	position: relative;
+	top: 530px;
+	width: 330px;
+	margin: 0 auto;
+	height: 24px;
+}
+#contenter_buttom a:hover{
+	color: #63b8c6;
+}
+#contenter_buttom li{
+	float: left;
+	height: 24px;
+	line-height: 24px;
+}
+#contenter_buttom li a{
+	font-size: 16px;
+    color: rgb(81, 141, 164);
+}
+#contenter_buttom li span{
+	margin:0 20px;
+    color: rgb(81, 141, 164);
+}
+#buttom{
+	position: relative;
+	margin:0px auto;
+	width: 1359px;
+	height: 308px;
+}
+
+#buttom ul{
+	padding-top: 20px;
+	height: 288px;
+	overflow: hidden;
+}
+#buttom li:hover{
+	margin-top: -20px;
+
+}
+#buttom li:hover h4{
+	color: #518da4;;
+}
+#buttom li:hover .cover{
+	opacity: 1;
+}
+#buttom li{
+  transition: margin-top 0.6s ease;
+}
+#buttom li h4{
+	transition: color 0.6s ease;
+}
+.advert{
+	position: relative;
+	float: left;
+	height: 274px;
+	width: 387px;
+	padding-top: 1px;
+	text-align: center;
+	margin-right: 99px;
+}
+.cover{
+	width: 387px;
+	height: 211px;
+	padding-top: 1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 60px;
+}
+#buttom h4{
+	    color: #627e87;
+	    font-size: 20px;
+	    background-color: #0d252d;
+	    height: 60px;
+	    line-height: 60px;
+}
+#bg-wrap2{
+	background-image: url(img/cover1700505_bg_02.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0;
+    height: 698px;
+    background-color: #111;
+    overflow: hidden;
+}
+.cover-container{
+	margin: 0 auto;
+	width: 1400px;
+}
+.cover-content{
+	margin: 0 20px;
+	position: relative;
+}
+.cover-content *{
+	transition:all 0.5 ease;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.link{
+	padding-top: 220px;
+	overflow: hidden;
+	position: relative;
+	transition: margin-top 0.6s ease;
+
+}
+.link .cover{
+	position: absolute;
+	top: 220px;
+	width: 450px;
+	height: 245px;
+	z-index: 101;
+}
+
+.link:hover{
+	margin-top: -26px;
+
+}
+.link:hover .cover{
+	opacity: 1;
+}
+.bg1{
+	background-image: url(img/cover161129_bg_09.png);
+	width: 1200px;
+    height: 698px;
+    position: absolute;
+    top: -0px;
+    left: -20px;
+    opacity: 0;
+}
+.bg2{
+	background-image: url(img/cover161129_bg_08.png);
+	width: 1200px;
+	height: 725px;
+	position: absolute;
+	top: -2px;
+	left: 60px;
+	opacity: 1;
+}
+
+.bg1-change{
+	left: -120px;
+	opacity: 1;
+}
+.bg2-change{
+	left: -40px;
+	opacity: 0;
+}
+.bg1{
+	transition: all 0.5s ease;
+}
